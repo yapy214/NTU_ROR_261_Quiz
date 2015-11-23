@@ -59,11 +59,13 @@ def firstnumber()
 
 ##7. 以下這段程式碼：((1 > 3)&&(true == true))||(!!!false)
 會執行出什麼結果？ 請試試不用 irb 算出結果
+Ans: 
 ```ruby
 true
 ```
 
 ##8. 請問 binding.pry 是什麼？ 要如何使用它？
+Ans: 
 ```ruby 
 可以在程式碼執行時攔截呼叫
 在程式中加上binding.pry，即可做為中斷點，以檢查和debug
@@ -78,7 +80,7 @@ else
   return "var is less than 5"
 end
 ```
-
+Ans: 
 ```ruby
 var = 5
 var >= 5 ? "var is greater than or equal to 5" : "var is less than 5"
