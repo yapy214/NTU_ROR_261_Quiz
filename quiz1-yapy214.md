@@ -10,6 +10,7 @@ str1 = "Hallo Welt!"
 str2 = " NTU Rails 261!"
 ```
 ##請說明以下兩個印出字串的方式的不同處：
+Ans: 
 ```ruby
 puts str1 + str2
 直接把str1和str2顯示
@@ -24,13 +25,15 @@ Ans:
 array是有排序過值(有index在內)，hash是將兩個值配成一對
 ```
 
-##4. 請寫一段 code 從 [1, "a string", 3.14, [1,2,3,4]] ##這個陣列找出所有非字串的值
+##4. 請寫一段 code 從 [1, "a string", 3.14, [1,2,3,4]]這個陣列找出所有非字串的值
+Ans: 
 ```ruby
 arr = [1, "a string", 3.14, [1,2,3,4]]
 arr.select {|x| x.class !=string}
 ```
 
 ##5. 請列出兩種產出亂數的方法
+Ans:
 ```ruby 
 rand(1..3)
 (1..3).shuffle!
@@ -38,6 +41,7 @@ rand(1..3)
 
 
 ##6. 請把 lesson1 程式碼裡的 calculator.rb裡面的使用者輸入兩個數字的方式改寫成method，並要有防止使用者亂輸入值的功能
+Ans: 
 ```ruby
 def firstnumber()
   begin
@@ -57,8 +61,7 @@ def firstnumber()
 
 
 
-##7. 以下這段程式碼：((1 > 3)&&(true == true))||(!!!false)
-會執行出什麼結果？ 請試試不用 irb 算出結果
+##7. 以下這段程式碼：((1 > 3)&&(true == true))||(!!!false)會執行出什麼結果？ 請試試不用 irb 算出結果
 Ans: 
 ```ruby
 true
