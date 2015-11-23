@@ -1,10 +1,12 @@
 ##1. 請說明 Fixnum (整數) 和 Float (浮點數) 之間的差異
+Ans: 
 ```ruby
 Fixnum: 直接呈現整數
 Float: 計算結果可以有小數點, 浮點數不能被1整除
 ```
 
 ##2. 今天有兩個字串：
+Ans: 
 ```ruby
 str1 = "Hallo Welt!" 
 str2 = " NTU Rails 261!"
