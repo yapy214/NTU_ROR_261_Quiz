@@ -35,8 +35,8 @@ User.new("Bob", "male", "Engineer")
 ```ruby
 Ans:
   class User
-    def initialize
-      @name = "Name"
+    def initialize(name, gender, job)
+      @name = "name"
       @gender = "gender"
       @job = "job"
     end
@@ -47,13 +47,13 @@ Ans:
 ```ruby
 Ans: 
 a. 指向class自己
-b. 指向class下的某個instance
+b. 指向class下的某個instance自己
 ```
 
 ##6. attr_accessor 的功能是什麼
 ```ruby
 Ans:
-attr_accessor 會幫你在 Ruby 的類別裡產生一對 getter 以及 setter 方法
+attr_accessor 會在 Ruby 的類別裡產生一對 getter 以及 setter 方法
 ```
 
 ##7. 請說明 public 和 private method 之間的不同
