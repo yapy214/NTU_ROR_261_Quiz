@@ -62,17 +62,16 @@ rake db:rollback
 請寫出一個能產生出以上需求的 migration 檔
 ```ruby
 Ans: 
-class AddGroupTable <ActiveRecord::Migration
-	def change
-	     create_table :groups do |t|
-		t.string:name
-		t.text:description
-		t.integer:member
-		t.timestamps
-	     end
-      end
+class AddGroupTable < ActiveRecord::Migration
+  def change
+    create_table :groups do |t|
+      t.string:name
+      t.text:description
+      t.integer:member
+      t.timestamps
+    end
+  end
 end
-
 ```
 
 
