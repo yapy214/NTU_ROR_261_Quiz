@@ -64,13 +64,13 @@ rake db:rollback
 Ans: 
 class AddGroupTable <ActiveRecord::Migration
 	def change
-		create_table :groups do |t|
+	     create_table :groups do |t|
 		t.string:name
 		t.text:description
 		t.integer:member
-	t.timestamps
-	end
-end
+		t.timestamps
+	     end
+      end
 end
 
 ```
